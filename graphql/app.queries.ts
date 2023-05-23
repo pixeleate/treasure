@@ -1,18 +1,10 @@
-import gql from "graphql-tag";
+import gql from 'graphql-tag';
 
-export const hello = gql`
-  query Hello {
-    accounts(first: 5) {
+export const InventoryByAddress = gql`
+  query InventoryByAddress($address: String!) {
+    punks(where: { owner: $address }) {
       id
-      punksOwned {
-        id
-      }
-      bought {
-        id
-      }
-    }
-    punks(first: 5) {
-      id
+      tokenId
       transferedTo {
         id
       }
@@ -21,6 +13,10 @@ export const hello = gql`
       }
       purchasedBy {
         id
+      }
+      metadata {
+        image
+        svg
       }
     }
   }

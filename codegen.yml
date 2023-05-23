@@ -1,9 +1,0 @@
-overwrite: true
-generates:
-  ./generated/app.generated.ts:
-    schema: ${CRYPTOPUNKS_API_URL}
-    documents: "./graphql/app.queries.ts"
-    plugins:
-      - "typescript"
-      - "typescript-operations"
-      - "typescript-graphql-request"
