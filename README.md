@@ -1,5 +1,12 @@
 # Cryptopunks Viewer Dapp
 
+
+### Using Connectkit - No CryptoPunks
+https://github.com/pixeleate/treasure/assets/1545853/f0b3f99a-dd21-46e8-92e8-e81ec872bc17
+
+### Using input field - 2 CryptoPunks in that Wallet / 0x0000000000000000000000000000000000000000
+https://github.com/pixeleate/treasure/assets/1545853/83b1ea6e-8cc6-4bfb-b683-8b1b947c0f84
+
 ## Objective
 
 Create a web application that allows a user to view their Cryptopunks inventory
